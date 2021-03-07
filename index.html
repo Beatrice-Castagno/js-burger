@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Create Your Burger</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- intestazione -->
+    <header>
+      <h1>Create Your Hamburger</h1>
+    </header>
+    <!-- /intestazione -->
+    <!-- corpo -->
+    <main>
+      <div class="name_hamburger">
+        <input id="burger_input" type="text" placeholder="Name Your Hamburger">
+      </div>
+      <h3>Ingredients</h3>
+      <!-- selezione ingredienti -->
+      <section class="container_ingredients">
+      <div class="ingredients_left">
+        <ul class="ingredient_list">
+          <li>
+            <label for="cheese"> Cheese
+              <input id="cheese" class="add_ingr" type="checkbox" value="2"> add
+            </label>
+          </li>
+          <li>
+            <label for="egg"> Egg
+              <input id="egg" class="add_ingr" type="checkbox" value="4"> add
+            </label>
+          </li>
+          <li>
+            <label for="mustard"> Mustard
+              <input id="mustard" class="add_ingr" type="checkbox" value="3"> add
+            </label>
+          </li>
+        </ul>
+        </div>
+        <div class="ingredients_right">
+          <ul class="ingredient_list">
+            <li>
+              <label for="tomato"> Tomato
+                <input id="tomato" class="add_ingr" type="checkbox" value="4"> add
+              </label>
+            </li>
+            <li>
+              <label for="lettuce"> Lettuce
+                <input id="lettuce" class="add_ingr" type="checkbox" value="3"> add
+              </label>
+            </li>
+            <li>
+              <label for="ketchup"> Ketchup
+                <input id="ketchup" class="add_ingr" type="checkbox" value="2"> add
+              </label>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- /selezione ingredienti -->
+      <!-- sezione coupon -->
+      <div class="coupon">
+        <label for="input_coupon">Discount Coupon</label>
+        <input id="input_coupon" type="text" placeholder="Enter your coupon code!">
+      </div>
+      <!-- /sezione coupon -->
+      <div class="calculate_button">
+        <button id="calculate" type="button" name="button">calculate</button>
+      </div>
+    </main>
+   <!-- fine pagina -->
+    <footer>
+    <h2>Your Price</h2>
+    <span id="tot">50€</span>
+    </footer>
+    <!-- fine pagina -->
+  </div>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>

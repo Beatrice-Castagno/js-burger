@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff5e2;
+}
+
+.container {
+  max-width: 800px;
+  background-color: #fff;
+}
+
+/* header */
+
+header {
+  background-color: #fdbb40;
+  padding: 50px 40px 30px 40px;
+  font-weight: bold;
+}
+
+/* main */
+
+main {
+  padding: 45px;
+}
+
+h3 {
+  padding: 25px 0;
+}
+
+.container_ingredients {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 30px 0;
+}
+
+.ingredient_list {
+  list-style: none;
+}
+
+.ingredient_list li {
+  padding: 10px 0;
+}
+
+.ingredients_right {
+  padding-left: 100px;
+}
+
+.coupon {
+  padding: 30px 0;
+}
+
+.calculate_button {
+  text-align: center;
+}
+
+#calculate {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* footer */
+
+footer {
+ display: flex;
+ justify-content: space-between;
+ background-color: #d33359;
+ color: #fff;
+ padding: 30px 50px;
+ margin-top: 150px;
+}
+
+footer span {
+  font-weight: bold;
+  font-size: 30px;
+}
